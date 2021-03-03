@@ -1,4 +1,2 @@
 *.json
-*.class
-Mk/*.class
-Mk/Mk.jar
+main.jar

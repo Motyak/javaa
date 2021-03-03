@@ -1,5 +1,4 @@
-#!/bin/sh
-javac Mk/*.java &&
-jar cf Mk/Mk.jar Mk/*.class &&
-rm Mk/*.class &&
-javac -cp Mk/Mk.jar Main.java
+#!/bin/bash
+javac Mk/*.java Main.java &&
+jar cfm main.jar <(echo 'Main-Class: Main') Mk/*.class *.class &&
+rm *.class Mk/*.class

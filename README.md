@@ -5,7 +5,7 @@ $ ./build.sh
 
 # RUN
 ```console
-$ java Main
+$ java -jar main.jar
 Storing the response..
 {
   "version": 0.6,
