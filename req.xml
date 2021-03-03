@@ -1,0 +1,7 @@
+<osm-script output="json">
+    <query type="node">
+        <has-kv k="amenity" v="fast_food"/>
+        <bbox-query s="43.7247599" w="7.4090279" n="43.7519311" e="7.4398704"/>
+    </query>
+    <print/>
+</osm-script>

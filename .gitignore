@@ -1,0 +1,4 @@
+*.json
+*.class
+Mk/*.class
+Mk/Mk.jar
