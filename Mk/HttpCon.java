@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.Serializable;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -111,7 +112,7 @@ public class HttpCon {
 	/**
 	 * Represents a request object
 	 */
-	static public class Request {
+	static public class Request implements Serializable {
 		public Type reqType;
 		public String url;
 		public String[] headers;
